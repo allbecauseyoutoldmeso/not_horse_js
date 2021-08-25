@@ -1,0 +1,57 @@
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  padding: 10px 0;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.tweet {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: 'Helvetica Neue';
+}
+
+.profile-picture {
+  border-radius: 10%;
+  max-width: 10%;
+  max-height: 10%;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.text {
+  padding: 0 20px;
+}
+
+.last-updated {
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+small {
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color:  #000000;
+  opacity: 0.5;
+}
